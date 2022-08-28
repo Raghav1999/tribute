@@ -3,8 +3,10 @@
     src: url(fonts/Aboreto-Regular.ttf);
 }
 
-@media screen {
-    
+@media screen and (max-width: 800px) {
+    .quotes {
+        flex-direction: column;
+    }
 }
 
 body {
@@ -13,7 +15,7 @@ body {
     background-repeat: repeat;
 }
 
-header {
+header, footer {
     font-family: aboreto,Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     position: sticky;
@@ -36,3 +38,30 @@ header {
     color: white;
     background-color: black;
 }
+
+.intro > h2 {
+    text-align: center;
+}
+
+.quotes {
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items:center;
+    /* flex-direction: row; */
+    flex-wrap: nowrap;
+    justify-content:center;
+    text-align: center;
+}
+
+.quote {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    /* margin-top: 10px; */
+    margin: 10px;
+}
+
