@@ -1,0 +1,38 @@
+@font-face {
+    font-family: aboreto;
+    src: url(fonts/Aboreto-Regular.ttf);
+}
+
+@media screen {
+    
+}
+
+body {
+    background-image: url(assets/images/mathematics.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-repeat: repeat;
+}
+
+header {
+    font-family: aboreto,Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    font-size: larger;
+    background-color: black;
+    color: white;
+}
+
+.main-img > img {
+    border-radius: 7%;
+    max-width: 80%;
+    height: auto;
+}
+
+.intro {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5px;
+    color: white;
+    background-color: black;
+}
